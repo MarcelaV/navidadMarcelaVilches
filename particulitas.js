@@ -1,6 +1,6 @@
 var pos = 0;
 var box = document.getElementById("box");
-var t = setInterval(move, 5);
+var t = setInterval(move, 1);
 
 function move(){
 	if (pos >= 550){
