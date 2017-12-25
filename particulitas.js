@@ -3,7 +3,7 @@ var box = document.getElementById("box");
 var t = setInterval(move, 1);
 
 function move(){
-	if (pos >= 550){
+	if (pos >= 450){
 		clearInterval(t);
 	}
 	else {
