@@ -6,13 +6,13 @@
 particlesJS('particles-js', {
   particles: {
     color: '#fff', // Color del vertice
-    color_random: false,
+    color_random: true,
     shape: 'circle', // "circle", "edge" or "triangle" // Establecemos cual de las 3 figuras queremos para vertice
     opacity: {
       opacity: 1, // Opacidad del vertice
       anim: {
         enable: true,
-        speed: 1.5,
+        speed: 2.5,
         opacity_min: 0,
         sync: false
       }
@@ -34,7 +34,7 @@ particlesJS('particles-js', {
     },
     anim: {
       enable: true,
-      speed: 1 // Velocidad a la que se mueven las aristas
+      speed: 2 // Velocidad a la que se mueven las aristas
     }
   },
   interactivity: {
